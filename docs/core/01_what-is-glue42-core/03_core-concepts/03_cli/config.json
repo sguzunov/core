@@ -1,5 +1,6 @@
 {
     "menuItem": "CLI",
     "title": "CLI",
-    "displayTitle": true
+    "displayTitle": true,
+    "titleType": "title"
 }

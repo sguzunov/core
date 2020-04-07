@@ -1,5 +1,6 @@
 {
     "menuItem": "Glue42 Client",
     "title": "Glue42 Client",
-    "displayTitle": true
+    "displayTitle": true,
+    "titleType": "title"
 }

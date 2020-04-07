@@ -7,7 +7,7 @@ A Glue42 Client can be any JS application written using Vanilla JS, React, Angul
 ## Initializing a Glue42 Client
 
 To "initialize" a client, means to connect to the [**Glue42 Core Environment**](../environment/index.html) using the `@glue42/web` library. We have prepared a more detailed guides on how do that using:
-- [**Vanilla JS**](../../../getting-started/setting-application/vanilla-js/index.html)
+- [**Vanilla JS**](../../../getting-started/setting-application/javascript/index.html)
 - [**React**](../../../getting-started/setting-application/react/index.html)
 
 We are not going to overlap the explanations there, instead we will get in-depth on how we can configure this initialization and why would we want to do that. Regardless of whether you use Vanilla JS or our React library, the configuration is done using two **optional** elements, and we will cover both here:

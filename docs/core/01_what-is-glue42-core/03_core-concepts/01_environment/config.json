@@ -1,5 +1,6 @@
 {
     "menuItem": "Environment",
     "title": "Environment",
-    "displayTitle": true
+    "displayTitle": true,
+    "titleType": "title"
 }

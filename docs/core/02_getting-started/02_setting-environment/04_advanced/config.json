@@ -1,5 +1,6 @@
 {
     "menuItem": "Advanced",
     "title": "Advanced",
-    "displayTitle": true
+    "displayTitle": true,
+    "titleType": "title"
 }

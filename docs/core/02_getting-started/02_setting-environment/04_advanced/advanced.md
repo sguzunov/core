@@ -2,7 +2,7 @@
 
 So far we have covered the default, straight forward initiation. But what if you need a little bit more control? By going over the `glue.config.dev.json` you can change the port of the dev server, the sources of the [**Glue42 Core environment**](../../../what-is-glue42-core/core-concepts/environment/index.html) files, the logging of the [**CLI**](../../../what-is-glue42-core/core-concepts/cli/index.html) and so on. If you are interested, head over to the [**CLI section**](../../../what-is-glue42-core/core-concepts/cli/index.html).
 
-## Extending the Gateway's logging
+## Extending the Gateway Logging
 
 You can get detailed information on what the gateway is from the [**Glue42 Core environment**](../../../what-is-glue42-core/core-concepts/environment/index.html) section. Here we will explain how you can extend it's logging functionality. Normally this is something you do not need to to, because the gateway logs internal messages to and from [**Clients**](../../../what-is-glue42-core/core-concepts/glue42-client/index.html), but obtaining this information could be useful for creating bug issues in [**our GitHub**](https://github.com/Glue42/core/issues) or just to get a better understanding on what's going on behind the scenes.
 
