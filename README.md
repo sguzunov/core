@@ -2,7 +2,7 @@
 
 [**Glue42 Core**](https://docs.glue42.com/core/what-is-glue42-core/introduction/index.html) is a toolkit for integrating web applications. With the powerful interoperability and window management features of **Glue42 Core** you can enable multiple apps to share information between each other and unify them in streamlined coherent workflows.
 
-**Glue42 Core** works in all modern browsers and focuses on  use cases with Progressive Web Applications.
+**Glue42 Core** works in all modern browsers and focuses on use cases with Progressive Web Applications.
 
 ## Features Overview
 
