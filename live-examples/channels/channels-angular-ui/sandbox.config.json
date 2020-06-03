@@ -1,7 +1,5 @@
 {
-  "view": "browser",
-  "template": "node",
-  "container": {
-    "port": 3000
-  }
+  "template": "static",
+  "hardReloadOnChange": true,
+  "infiniteLoopProtection": true
 }

@@ -2,19 +2,22 @@ import { Component, ElementRef, Renderer2, OnInit } from '@angular/core';
 import { GlueService } from './glue.service';
 import { Message, Channel } from './types';
 import { MatSelectChange } from '@angular/material/select';
+import { environment } from './../environments/environment';
+
+const DEPLOY_URL = (environment as any).deployUrl;
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
-
+  public DEPLOY_URL = (environment as any).deployUrl || '';
   public NO_CHANNEL = 'no-channel';
   public channels: Channel[];
   private currentChannel: Channel;
   public selected: string;
   public messages: Message[] = [];
-  public glueConnectedBadgeSrc = '/assets/disconnected.svg';
+  public glueConnectedBadgeSrc = `${this.DEPLOY_URL}/assets/disconnected.svg`;
   public glueConnectionStatus = 'Disconnected';
 
   constructor(
@@ -73,7 +76,7 @@ export class AppComponent implements OnInit {
   }
 
   private setGlueConnectionStatus() {
-    this.glueConnectedBadgeSrc = '/assets/connected.svg';
+    this.glueConnectedBadgeSrc = `${this.DEPLOY_URL}/assets/connected.svg`;
     this.glueConnectionStatus = 'Connected';
   }
 }

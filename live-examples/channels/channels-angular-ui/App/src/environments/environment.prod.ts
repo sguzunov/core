@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  deployUrl: '/App/dist/glue42-core-channels-angular-ui'
 };

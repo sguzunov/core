@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --source-map=false",
+    "build": "ng build --source-map=false --prod=true --deploy-url /App/dist/glue42-core-channels-angular-ui/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
